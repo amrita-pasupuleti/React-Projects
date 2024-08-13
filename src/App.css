@@ -1,0 +1,254 @@
+/* SIDEBAR */
+.container {
+  display: flex;
+}
+
+.button-list {
+  min-width: 23%;
+  padding: 20px;
+}
+
+.button-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.button-list li {
+  margin-bottom: 16px;
+  margin-right: 10px;
+}
+
+.button-list button {
+  border: none;
+  border-radius: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  text-transform: uppercase;
+
+  padding: 15px 10px 13px;
+  background-image: linear-gradient(135deg, #5a5c64, #3131b6);
+  width: 100%;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button-list button:hover {
+  transform: scale(110%);
+}
+
+/* MAIN */
+.main-content {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.count {
+  font-size: 30px;
+  font-family: "Delius";
+  margin-bottom: 20px;
+}
+
+.calculator-container button {
+  font-family: "Coiny", "sans-serif";
+  font-size: 30px;
+  border: none;
+
+  cursor: pointer;
+  background-color: #22379f;
+}
+
+.game button {
+  font-family: "Coiny", "sans-serif";
+  font-size: 30px;
+  border: none;
+
+  cursor: pointer;
+  background-color: #22379f;
+}
+
+.counter-container button {
+  font-family: "Coiny", "sans-serif";
+  font-size: 30px;
+  border: none;
+
+  cursor: pointer;
+  background-color: #22379f;
+}
+/* padding notes: top right bottom left */
+
+/* OTHER PROJECTS */
+.num-btn {
+  margin: auto;
+  border-radius: 100px;
+  padding: 10px 18px 10px 18px;
+}
+
+.reset-btn {
+  margin-left: 20px;
+  border-radius: 10%;
+  padding: 10px 25px 10px 25px;
+}
+
+.save-btn {
+  background-image: linear-gradient(135deg, #22379f, #7c2e91);
+  margin-left: 20px;
+  border-radius: 10%;
+  padding: 10px 25px 10px 25px;
+}
+
+.save-btn:hover {
+  transform: scale(110%);
+}
+
+.scoreForm {
+  font-family: "Delius";
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.form {
+  color: black;
+}
+
+.scores {
+  margin-top: 20px;
+}
+
+.scoresh1 {
+  font-family: "Coiny", "sans-serif";
+  font-size: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: "Delius";
+  font-size: 20px;
+}
+
+thead th {
+  border-bottom: 2px solid #fafaf9;
+}
+
+tbody td {
+  padding: 8px;
+  text-align: center;
+}
+
+.savebtn {
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: "Delius";
+  padding: 5px 10px 5px 10px;
+  border-radius: 15%;
+}
+
+.savebtn:hover {
+  transform: scale(110%);
+}
+
+.info {
+  font-family: "Delius";
+  font-size: 30px;
+  margin: 20px 0px 0px 20px;
+}
+
+.title {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  padding-bottom: 2px;
+  border-bottom: 2px groove #a8a29e;
+  margin-bottom: 10px;
+}
+
+.calculator-container {
+  display: flex;
+  font-family: "Trebuchet MS";
+  width: 100%;
+  font-size: 20px;
+}
+
+.calculator-container h2 {
+  font-weight: bolder;
+}
+
+.grades-container,
+.courses-container,
+.gpa-container {
+  flex: 1;
+  flex-basis: 33.33%;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.grades-container {
+  margin-right: 20px;
+}
+
+.addCourse {
+  font-size: 20px !important;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  background-image: linear-gradient(135deg, #22379f, #592e91);
+}
+
+.grades-container input,
+.courses-container input,
+.courses-container select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.4vh;
+  border: none;
+  border-radius: 10px;
+  border: 0.1vh solid black;
+}
+
+.courses-container input {
+  background-color: #a6b0e2;
+  border: 0.1vh solid rgb(70, 70, 70);
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.restart-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-image: inear-gradient(135deg, #5673e8, #3131b6);
+}

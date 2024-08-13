@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fafaf9;
+}
+
+body {
+  background-color: #292524;
+  padding: 48px 64px 0px;
+}
+
+ul {
+  list-style-type: none;
+}
